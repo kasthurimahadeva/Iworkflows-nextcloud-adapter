@@ -18,6 +18,7 @@
         <navigation>
             <name>Iworkflows Adapter</name>
             <route>iworkflowsadapter.page.index</route>
+	    <order>0</order>
         </navigation>
     </navigations>
 </info>

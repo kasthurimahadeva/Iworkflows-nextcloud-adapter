@@ -12,3 +12,20 @@
     * lib/: Contains the PHP class files of your app
     * templates/: Contains the templates
     * tests/: Contains the tests
+
+> Open appinfo/info.xml file and check whether these lines are in that file or not. If it is not add those lines.
+
+```xml
+<navigation>
+    <name>MyApp</name>
+    <route>myapp.page.index</route>
+    <order>0</order>
+</navigation>
+```
+
+**Note : In my file,**
+```xml
+<order>0</order>
+```
+
+**is *missing* and I added that line.**
