@@ -1,0 +1,15 @@
+{
+    "name": "Iworkflows Adapter",
+    "description": "Adapter for iWorkFlows",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "Kasthuri Mahadeva"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>iworkflowsadapter</id>
+    <name>Iworkflows Adapter</name>
+    <summary>Adapter for iWorkFlows</summary>
+    <description><![CDATA[Create adapter for iWorkflows to integrate multiple systems in heterogeneous environment.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="kasthuri.14@cse.mrt.ac.lk" >Kasthuri Mahadeva</author>
+    <namespace>IworkflowsAdapter</namespace>
+    <category>organization</category>
+    <bugs>https://github.com/kasthurimahadeva/Iworkflows-nextcloud-adapter</bugs>
+    <dependencies>
+        <nextcloud min-version="14" max-version="14"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Iworkflows Adapter</name>
+            <route>iworkflowsadapter.page.index</route>
+        </navigation>
+    </navigations>
+</info>
